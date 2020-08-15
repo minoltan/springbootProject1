@@ -4,18 +4,26 @@ package io.firstproject.project1.model;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import static javax.persistence.GenerationType.AUTO;
+
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-
+import javax.persistence.Table;
 
 //This is the first class that we create
 //@Document creates each data table in mongodb
-@Document("faq")
+//@Document("faq")
+@Entity
+@Table(name="faq")
 public class Faq {
 
     @Id
+    @Column
     private String id;
+    @Column
     private String Question;
+    @Column
     private String Answer;
 
     public Faq() {

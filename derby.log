@@ -1,13 +1,13 @@
 ----------------------------------------------------------------
-Sat Sep 07 13:40:49 IST 2019:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-016d-0ac6-8f36-000006254dc0 
-on database directory memory:D:\project\senzmate\project1\testdb with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
-Loaded from file:/C:/Users/minoltan/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
-java.vendor=Oracle Corporation
-java.runtime.version=1.8.0_171-b11
-user.dir=D:\project\senzmate\project1
-os.name=Windows 10
+Thu Aug 13 01:39:52 GMT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0173-e579-34ac-0000037a0500 
+on database directory memory:/home/mino/springboot/springbootProject1/testdb with class loader java.net.URLClassLoader@41bb1f09 
+Loaded from file:/home/mino/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.7+10-post-Ubuntu-2ubuntu218.04
+user.dir=/home/mino/springboot/springbootProject1
+os.name=Linux
 os.arch=amd64
-os.version=10.0
+os.version=4.15.0-111-generic
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
